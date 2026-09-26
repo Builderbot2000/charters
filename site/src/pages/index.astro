@@ -1,0 +1,85 @@
+---
+import { loadGlossary } from "../lib/glossary";
+import "../styles/glossary.css";
+
+const { site, sections, relatives, termCount } = loadGlossary();
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{site.title}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <p class="eyebrow">{site.eyebrow}</p>
+    <h1>{site.title}</h1>
+    <p class="lede" set:html={site.lede} />
+    <p class="lede sub" set:html={site.intro} />
+  </header>
+
+  <div class="layout">
+    <aside class="nav" aria-label="Glossary navigation">
+      <div>
+        <label for="q">Search terms</label>
+        <input id="q" type="search" placeholder="For example, jurisdiction" autocomplete="off">
+      </div>
+      <div>
+        <label id="toc-label">Contents</label>
+        <nav id="toc" aria-labelledby="toc-label">
+          <ol class="toc" id="toc-list">
+            {sections.map(sec => (
+              <li data-sec={sec.id}><a href={`#${sec.id}`}><span class="n">{sec.n}</span><span>{sec.title}</span><span class="c">{sec.terms.length}</span></a></li>
+            ))}
+          </ol>
+        </nav>
+      </div>
+      <p class="count" id="count" aria-live="polite" data-total={termCount} data-sections={sections.length}>{termCount} terms in {sections.length} sections</p>
+    </aside>
+
+    <main>
+      <div id="list">
+        {sections.map(sec => (
+          <section class="sec" id={sec.id}>
+            <div class="sec-head"><span class="n">Section {sec.n}</span><h2>{sec.title}</h2><p>{sec.intro}</p></div>
+            {sec.terms.map(e => (
+              <article class="entry" id={e.id} data-search={e.search}>
+                <h3><a class="perma" href={`#${e.id}`}>{e.term}</a></h3>
+                <div class="meta">
+                  <span class="num">{e.num}</span>
+                  {e.layer && <span class="layer">{e.layer}</span>}
+                  {e.aka.length > 0 && <span class="aka">Also called {e.aka.join(", ")}</span>}
+                </div>
+                <p class="def" set:html={e.definition} />
+                {e.body && <div class="more" set:html={e.body} />}
+                {e.example && <div class="ex"><b>Example</b><Fragment set:html={e.example} /></div>}
+                {e.seeAlso.length > 0 && (
+                  <p class="see">See also: {e.seeAlso.map((s, i) => <>{i > 0 && ", "}<a href={`#${s.id}`}>{s.term}</a></>)}</p>
+                )}
+              </article>
+            ))}
+          </section>
+        ))}
+      </div>
+      <p id="empty" hidden>No terms match your search. Try a shorter or different word.</p>
+      {relatives && (
+        <section class="relatives" id="relatives">
+          <h2>{relatives.title}</h2>
+          <p>{relatives.intro}</p>
+          <div class="tbl"><table>
+            <thead><tr><th>Tradition</th><th>Shared ideas</th></tr></thead>
+            <tbody>{(relatives.traditions ?? []).map((r: { name: string; ideas: string }) => <tr><td>{r.name}</td><td>{r.ideas}</td></tr>)}</tbody>
+          </table></div>
+        </section>
+      )}
+    </main>
+  </div>
+</div>
+<script src="../scripts/glossary.ts"></script>
+</body>
+</html>

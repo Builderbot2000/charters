@@ -1,0 +1,26 @@
+---
+term: Rules as code
+section: execution
+order: 60
+definition: The practice of writing part of a charter as a machine-readable specification that software can check and enforce.
+seeAlso:
+  - charter
+  - audit
+  - ai-executive
+---
+Governments use the name *rules as code* for publishing legislation in a machine-readable form alongside the legal text. A machine-readable charter can state purposes, domains, permitted actions, constraints, objective functions, audit triggers, amendment rules, and delegation rules. This makes constitutional unit tests possible. A unit test is an automated check that confirms a proposed action or amendment is consistent with the charter before it takes effect.
+
+```charter
+# Illustrative sketch, not a defined format
+charter: Riverbend Water Corporation
+objective:
+  maximize: supply_reliability
+  constraints:
+    - min_river_flow_m3s >= 4.0
+delegation:
+  executive: ai
+  may: [schedule_releases, set_tariffs_within_band]
+  may_not: [amend_objective, change_membership]
+audit:
+  trigger: supply_reliability < 0.98 for 30 days
+```

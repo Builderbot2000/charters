@@ -93,8 +93,9 @@ decentralization is what keeps the order open to challenge afterward.
 
 ## What ordinary people can still change
 
-Of the strengths that ordinary people are losing, organizing can't restore one
-of them: being needed as labor. It can restore another: acting together.
+Of the strengths that ordinary people are losing, organizing in one place
+can't restore one of them: being needed as labor. It can restore another:
+acting together.
 
 Developed society is divided in two directions. Single-interest movements cut
 vertically across classes, and class divides cut horizontally through those
@@ -121,6 +122,37 @@ share without first agreeing on everything else. Every group produces
 factions, and the framework mediates them toward results that benefit
 everyone, instead of leaving them to drift toward entrenchment or subversion.
 
+## Leverage across borders
+
+Coordination alone doesn't answer the loss of leverage. Leverage can be scarce
+in one place, but it's unlikely to be scarce everywhere at once.
+
+Technology spreads unevenly, and the gaps between places are widening.
+Progress at the frontier is accelerating, while the pace at which technology
+spreads stays roughly constant. New inventions are spontaneous in form and in
+where they take effect, so regulation can't become uniform across the world
+quickly. The unevenness that weakens ordinary people in one country leaves
+openings in another.
+
+Under strong rule, revolutionary pressure has usually needed a base outside
+the regime's reach. Idean Salehyan found that rebels with sanctuary across a
+border last far longer than rebels without it. Lenin organized from
+Switzerland, and the African National Congress organized from Zambia and
+Tanzania. Leverage that's scarce at home can also come from abroad. Margaret
+Keck and Kathryn Sikkink called this the boomerang pattern: when activists'
+own government blocks them, allies in other countries press it from outside,
+as the boycotts and divestment campaigns against apartheid did.
+
+Ordinary people are the least able to move to where leverage is, so a movement
+has to reach both places. That's why the Social Charter is meant for movements
+that work across borders, not inside one country.
+
+Support from abroad usually comes with a patron, and a patron has interests of
+its own. The Social Charter separates a charter's principles from their
+execution. A charter's principles are public, and its strategy stays inside
+its executive functions, which can remain confidential. A movement can then
+accept a patron's support without adopting the patron's aims.
+
 ## What the framework doesn't claim
 
 The Social Charter sets out to coordinate, and it leaves several questions to
@@ -131,8 +163,8 @@ others:
 - It doesn't prescribe how each charter is designed. Where a choice already
   has a known range of options, such as how a charter can change its rules and
   still resist capture, each charter makes that choice.
-- It doesn't restore economic leverage. It addresses division, not dependence.
 
 The question this project started from, whether ordinary people can still
 change the order they live under, remains open. The Social Charter proposes
-how they might, if they act together while the openings last.
+how they might: by acting together, across the places where leverage remains,
+while the openings last.

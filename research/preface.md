@@ -91,6 +91,42 @@ Robinson's finding that elites concede only when repression costs more than
 concession. Technology is the force most likely to crack a sealed order, and
 decentralization is what keeps the order open to challenge afterward.
 
+## The record of recent attempts
+
+The socialist movements of the late 20th and early 21st centuries show both
+failures, and they show what happens when a movement tries to combine
+direction and momentum without a structure that holds them together.
+
+Vanguard socialism failed through the vanguard interest. Milovan Djilas
+described how the Soviet party apparatus became a new class with interests of
+its own, and Friedrich Hayek explained why a planning center couldn't know
+what millions of people needed. The Soviet order ended through reform from a
+leadership that no longer believed in it. In China, the party kept its
+direction by giving up its program.
+
+Horizontal movements failed through the question of arbitration. The
+movement against corporate globalization, Argentina's neighborhood assemblies
+after 2001, and Occupy in 2011 mobilized large numbers but couldn't turn that
+pressure into lasting change.
+
+The attempts in between broke on the same problems. Spain's Podemos turned
+the momentum of the 15-M movement into a party, then centered decisions on its
+leader and split into factions. Bolivia's Movement for Socialism federated
+Indigenous groups, coca growers, and unions, and it divided when a succession
+fight set its leaders against each other. Each of these projects was also
+confined to one country. Greece's Syriza faced its creditors alone and gave
+way within months, and Venezuela's program depended on one country's oil
+revenue and collapsed with the price of oil.
+
+In the established democracies, the old class base itself came apart. Thomas
+Piketty and colleagues documented how left parties became parties of the
+educated while much of the working class moved elsewhere.
+
+Two lessons run through these cases. Each movement bound its organization to a
+fixed program, so when the program failed or the base fragmented, the
+organization lost what held it together. And each was confined to the
+leverage available in one country.
+
 ## What ordinary people can still change
 
 Of the strengths that ordinary people are losing, organizing in one place

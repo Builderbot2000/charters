@@ -37,6 +37,24 @@ idea:
 | Intent signal | Stated preference | Economics, as the counterpart of revealed preference |
 | Intent insulation | Preference tampering | AI research on recommender systems |
 | Executive alignment | Corrigibility | AI safety research |
+| Meeting of interests | Action situation | Ostrom, Institutional Analysis and Development (IAD) framework |
+| Welfare | Capability | Sen and Nussbaum. Sen's capability approach is a critique of welfarism. |
+| Associative consolidation | Integration | Williamson's market–hybrid–hierarchy continuum. The EU's differentiated integration. |
+| Commission, as the formation end | Devolution | Constitutional practice. Stepan's holding-together federations. |
+| Opponent | Adversary | Mouffe, agonism |
+| Dispersal, as the alias of centralization | Decentralization | Fiscal federalism. Hooghe and Marks, Regional Authority Index. |
+
+*Representation vector* keeps its name, and adds Simmel's *web of group
+affiliations* as an alias.
+
+The second literature scan, on October 28, 2026, also added these citations
+to entries that keep their names: Schlager and Ostrom's bundle of rights,
+Ostrom's seven rule types and nested enterprises, Stepan and Riker on
+federation formation, Fearon on bargaining failure, Debelle and Fischer on
+goal and instrument independence, *nemo iudex in causa sua*, Buchanan and
+Ostrom on the constitutional level, Olson's fiscal equivalence, Oates's
+decentralization theorem, Chwe on common knowledge, federal intervention, and
+Holland on causal inference.
 
 The following terms keep their names, because the nearest established term
 means something different:
@@ -50,8 +68,6 @@ means something different:
 | Natural Charter | State of nature | The state of nature is a social condition. The Natural Charter is the set of constraints that reality imposes. |
 | Ecumenical charter | Nozick's framework for utopia | Nozick's framework hosts many communities and has no shared objective. |
 
-*Meeting of interests* is very close to Ostrom's *action situation*. Whether
-to rename it is an open decision. See [Open decisions](#open-decisions).
 
 ## Prior art
 
@@ -198,7 +214,10 @@ Before claiming novelty in public, read Grassroots Federation, McGinnis
 
 These decisions and tasks are still open, as of October 28, 2026:
 
-- Decide whether to rename *meeting of interests* to *action situation*.
+- Decide whether to redefine *commons* to cover intangible holdings, such
+  as knowledge, culture, reputation, and relationships with associates.
+- Decide whether to rename *intervention*, which means interference in a
+  sovereign state in international relations.
 - Decide whether to add new intellectual relatives: IAD and McGinnis,
   Grassroots Federation, *Plurality*, futarchy, FOCJ, Michels, Hirschman, and
   Nozick.

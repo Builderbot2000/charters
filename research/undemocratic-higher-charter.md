@@ -5,8 +5,8 @@ higher charter above them wasn't set up with democratic intent. It finds where
 the glossary already handles the case, where it assumes the case away, and
 what the author has to decide.
 
-Status as of October 25, 2026. Nothing in this document changes the glossary.
-Each recommendation is a decision for the author.
+Status as of October 28, 2026. The author's answers to every decision are
+recorded at the end of this document and integrated into the glossary.
 
 ## Why the case matters
 
@@ -262,6 +262,27 @@ these decisions. See that document for the author's positions:
 - Decision 4 stays open.
 - Decision 5 is answered. Charters relate to an existing state through
   contracts and statuses, which can differ by commons.
+
+## Answer on democracy
+
+On October 28, 2026, the author answered decision 4: democracy is a design
+choice, not a framework requirement. The answer follows the same neutrality
+that led the author, the same day, to move fundamental protections and
+anti-capture protections out of the framework and into charter design. See
+the associative consolidation review.
+
+The answer also settles decision 1, which depended on it. A higher charter
+whose members don't hold constitutional authority is still a charter in the
+framework. Lower charters relate to it through contracts and statuses, and
+act against it through the modes of intervention, such as exit, secession,
+and escalation.
+
+The glossary now reflects this answer. Constitutional authority belongs to
+whoever a charter's articles name, which is the members in a democratic
+charter. The living charter, member, and delegation of functions entries
+follow the same wording.
+
+Every decision in this document is now answered.
 
 ## Sources to verify
 

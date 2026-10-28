@@ -38,7 +38,8 @@ glossary:
 
 | Record | Subject | Status |
 |---|---|---|
-| [literature-review.md](literature-review.md) | Prior art, contested claims, and novelty | Six small items open |
+| [literature-review.md](literature-review.md) | Prior art, contested claims, and novelty | Four small items open |
+| [discussion-venues.md](discussion-venues.md) | Where to find human review, and whom to contact | Reference. No outreach yet. |
 | [intent-and-premises.md](intent-and-premises.md) | Intent, thesis, premises, and the restated thesis | All decisions closed |
 | [undemocratic-higher-charter.md](undemocratic-higher-charter.md) | A higher charter without democratic intent | All decisions closed |
 | [initiation-and-admission.md](initiation-and-admission.md) | Initiation, contracts, and the five statuses | All decisions closed |

@@ -1,101 +1,82 @@
-# Handoff: intent and premise review
+# Handoff
 
-This handoff lets the next working session continue the review of the Social
-Charter's intent, thesis, and premises without repeating it.
+This handoff lets the next working session continue work on the Social
+Charter without repeating earlier reviews.
 
-Status as of October 23, 2026.
+Status as of October 28, 2026. Everything described here is committed to
+`main`.
 
 ## Where things stand
 
-The review produced two kinds of output:
+The glossary in `site/content/` is authoritative. `kernel.md` isn't. Every
+framework-level decision from the reviews so far is answered.
 
-- **The review record:** [`intent-and-premises.md`](intent-and-premises.md)
-  holds the consolidated intent and thesis, the assessment of each premise and
-  hidden assumption, the factional intent with its precedents, the author's
-  answers, and the open decisions. It builds on the earlier
-  [literature review](literature-review.md).
-- **Glossary changes:** the author's answers are now in the glossary. The site
-  builds with no unresolved links.
+The project now has four parts, and the site groups its sections under them:
 
-Nothing from this review is committed. The author commits straight to `main`,
-but only when they ask.
+- **Framework.** The generic structure that every charter shares. It holds
+  the whole current glossary.
+- **Model.** Observations of a specific society as it is.
+- **Question.** What a specific society ought to be.
+- **Answer.** What is to be done in a specific scenario.
 
-| File | Change |
-|---|---|
-| `research/intent-and-premises.md` | New. The full review record. |
-| `research/handoff.md` | New. This file. |
-| `site/content/terms/factional-interest.mdoc` | New intent term, order 25 |
-| `site/content/terms/charter.mdoc` | Definition rebuilt around a real commons and mechanisms for deliberation, self-modification, and execution |
-| `site/content/terms/meeting-of-interests.mdoc` | Calculability as availability of signal, engineered toward truthful expression |
-| `site/content/terms/question-of-arbitration.mdoc` | Deadlock as partly reconcilable, and dissolution once agreement runs out |
-| `site/content/terms/arbitration.mdoc` | Exit penalties agreed before arbitration, and trust as a metric of the parent's mechanism |
-| `site/content/terms/dissolution.mdoc` | Dissolution once a charter no longer combines agreements into more influence |
-| `site/content/terms/externality.mdoc` | Each parent states how it takes up externalities |
-| `site/content/terms/jurisdiction.mdoc` | Range of protection for non-members inside a charter's commons |
-| `site/content/terms/measurement-mechanism.mdoc` | Measurement tightness as a design dial |
-| `site/content/terms/social-charter.mdoc` | Links to factional interest |
+Model, Question, and Answer apply the Framework to specific scenarios. Work on
+them hasn't started, and they're empty. Generic content stays in the
+Framework, even when it carries an opinion.
 
-## Decisions the author made
+The thesis, restated on October 28, 2026: the Social Charter is a universal
+framework that promotes maximal organizational efficiency at any scale, by
+applying well-studied theory to a model of a known problem at any point in
+society. It's infrastructure. Ideals and societal conditions are its
+parameters. It depends on the decomposability premise: local optima add up
+to the global optimum when society is nearly decomposable and parent charters
+internalize the spillovers between their children.
 
-The author settled these points during the review:
+## Research records
 
-- **Calculability:** calculability means the availability of signal. Each
-  charter engineers its deliberation, which is the game, toward the strongest
-  incentive for truthful expression.
-- **Binding outcomes:** exit is a calculated scenario, with conditions and
-  penalties agreed before arbitration begins.
-- **Deadlock:** a deadlock is a common state that probably holds some
-  reconcilable agreement. Charters extract it, and a dissolution clause ends
-  charters that have used it up.
-- **Factional interest:** this is a base intent. Positive factional interest,
-  an idealistic difference of direction, both innovates and subverts.
-  Negative factional interest, a material difference of positions and gains,
-  both protects member rights and ossifies. The charter system mediates
-  between them toward positive-sum results.
-- **Charter ingredients:** a charter's fundamental ingredients are a real
-  commons and mechanisms for deliberation, self-modification, and execution.
-  No commons means no charter. Symbolism is cosmetic.
-- **Factions of principle:** a faction that won't take part either gains
-  influence over the whole commons and becomes the higher charter, or stays
-  subject to the charter without a voice.
-- **Trust:** the higher charter's design and executive authority mediate
-  against destructive conflict, and trust is part of what its mechanism
-  optimizes for.
-- **Scope rule:** a choice that already has an established range of options
-  is left to each charter's design. The framework states only that the choice
-  exists.
+Each record holds the analysis, the author's positions, and the effect on the
+glossary:
+
+| Record | Subject | Status |
+|---|---|---|
+| [literature-review.md](literature-review.md) | Prior art, contested claims, and novelty | Six small items open |
+| [intent-and-premises.md](intent-and-premises.md) | Intent, thesis, premises, and the restated thesis | All decisions closed |
+| [undemocratic-higher-charter.md](undemocratic-higher-charter.md) | A higher charter without democratic intent | All decisions closed |
+| [initiation-and-admission.md](initiation-and-admission.md) | Initiation, contracts, and the five statuses | All decisions closed |
+| [associative-consolidation.md](associative-consolidation.md) | Membership tiers, centralization, intervention, and the charter model | All decisions closed |
+| [preface.md](preface.md) | Draft preface | Not reviewed in recent sessions |
+
+## Decisions from October 28, 2026
+
+The author made these decisions in the latest session:
+
+- Membership has discrete tiers between base associate and full member, and
+  a party can move in either direction. The framework sets no ceiling.
+- Fundamental protections, tiered constitutional layers, and anti-capture
+  protections left the glossary. What protects a charter depends too much on
+  its scenario for the framework to prescribe it.
+- The framework defines modes of intervention against a malign charter, such
+  as exit, secession, escalation, demotion, and receivership. Without
+  arbitration, each mode becomes struggle.
+- Centralization is a parameter that each charter's articles control.
+- The framework's job is a standardized charter model of dimensions,
+  parameters, states, transitions, and outputs, so that existing theory
+  applies to each charter.
+- Democracy is a design choice, not a framework requirement.
+- Welfare is no longer the framework's measure. It's a measure that a charter
+  can adopt in its objective function.
 
 ## What's still open
 
 Work through open items one at a time. The author asked for that pace.
 
-### Items routed to charter design
+### Lines of study
 
-On October 23, 2026, the author routed factional issues 9, 10, and 11, and
-the design halves of several framework decisions, to established practice in
-game theory, constitutional design, and incentive engineering. The review
-record lists them in "Decisions for the author." Don't elaborate these items
-further. The framework only states that each choice exists.
-
-### Framework-level decisions
-
-The following decisions are open in the review record's "Decisions for the
-author" section:
-
-1. Narrow obscured consensus to transparency of the problem, not of positions.
-1. Decide whether factions inside a charter form child charters. This is the
-   largest remaining gap: issue unbundling removes the logrolling that holds
-   conventional big tents together.
-1. Clarify who engineers "from above," so the factional intent doesn't
-   conflict with the vanguard interest.
-1. Decide whether "the common good" means each charter's stated common
-   interest.
-1. Decide whether to promote the hidden assumptions to stated premises, or
-   list them as open problems.
-1. State that coalition-decided exclusion describes what happens and doesn't
-   justify it.
-1. Choose one standard for the claim of advantage, behind "better states" and
-   "more efficiently."
+- Fit a charter's design to a known problem, and verify that the structure
+  scales to an optimum. This study tests the decomposability premise.
+- Study how a charter scales its centralization across societal regimes, for
+  example Deng Xiaoping's reforms.
+- Expand the charter model. The author expects it to grow a great deal.
+- Start the Model, Question, and Answer parts.
 
 ### Pending wording choices
 
@@ -104,17 +85,17 @@ The author hasn't reviewed these yet:
 - Whether to rename *positive* and *negative* factional interest to factions
   of *principle* and of *interest*. Hume rates factions of principle as the
   more dangerous kind, which reverses the current labels.
-- In the factional interest entry, "its mechanisms steer factional behavior"
-  stands in for the author's "engineered from above."
 - The commons entry defines a commons as contributed assets. The author uses
   the word more broadly, for the domain that deliberation and rulings operate
   on.
 
-### Older items still open
+### Smaller items
 
-The [literature review](literature-review.md) lists earlier open items, such
-as renaming *meeting of interests* to *action situation* and adding
-intellectual relatives. They're unchanged.
+- The open items in the literature review's "Open decisions" section.
+- Sources to verify, listed at the end of each research record, including
+  the Ukrainian cases in the associative consolidation record.
+- The site's long-term direction: an open online book modeled on CORE Econ's
+  *The Economy*.
 
 ## Working conventions
 
@@ -122,13 +103,12 @@ Follow these conventions in this project:
 
 - Invoke the `google-style` skill before writing or editing any user-facing
   text, as `CLAUDE.md` requires.
-- Treat the glossary as authoritative. `kernel.md` isn't.
+- Leave choices that have an established range of options to each charter's
+  design. The framework states only that the choice exists.
 - Record the author's positions, but don't write premise elaborations for
   them. Offer the literature and the reassessment, then wait for their
   answer.
-- When the author answers, add an "Author's position" and a "Reassessment"
-  paragraph under the relevant item in the review record.
-- Check new citations against primary sources before publishing. The review
-  record lists the ones not yet checked under "Sources to verify."
-- After glossary edits, run `npm run build` in `site/` and check the output
-  for `Unresolved link` warnings.
+- Commit and push straight to `main`, with no feature branches.
+- After glossary edits, run `npx astro build` in `site/` and check the output
+  for warnings. A YAML value that contains a colon followed by a space needs
+  quotes.

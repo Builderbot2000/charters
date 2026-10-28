@@ -196,25 +196,32 @@ Before claiming novelty in public, read Grassroots Federation, McGinnis
 
 ## Open decisions
 
-These decisions and tasks are still open:
+These decisions and tasks are still open, as of October 28, 2026:
 
 - Decide whether to rename *meeting of interests* to *action situation*.
 - Decide whether to add new intellectual relatives: IAD and McGinnis,
   Grassroots Federation, *Plurality*, futarchy, FOCJ, Michels, Hirschman, and
   Nozick.
-- Revise the contested premises: big tent, obscured consensus, and issue
-  bundling.
-- Decide whether to add four open problems: the Olson problem, the boundary
-  problem, multitask distortion, and the proxy will for people who can't
-  will.
+- Decide whether to add two open problems: the Olson problem and multitask
+  distortion.
 - Rewrite the generativity gap entry to credit the Hayek answer.
-- Decide whether stated preferences that move the working objective are a
-  core feature or an optional one.
-- Confirm that the capability-based definition of welfare keeps the
-  framework neutral.
 - Soften the metastability language in the ecumenical charter entry.
 - Mention the Open problems section in the page introduction in
   [`site.yaml`](../site/content/site.yaml).
+
+Later reviews settled the following items:
+
+- **Contested premises.** Obscured consensus is narrowed to transparency of
+  the problem. Issue bundling's separability problem is folded into the
+  decomposability premise. How big tents pool resources is left to charter
+  design. See the [premise review](intent-and-premises.md).
+- **Boundary problem and proxy will.** Exclusion is now status assignment,
+  which each charter makes, and a proxy for people who can't will is a
+  choice for each charter.
+- **Stated preferences.** Whether they move the working objective is left
+  to charter design.
+- **Neutrality of capability welfare.** Moot. Welfare is no longer the
+  framework's measure, only one that a charter can adopt.
 
 ## Sources from recent work
 

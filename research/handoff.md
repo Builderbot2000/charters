@@ -54,9 +54,10 @@ The author made these decisions in the latest session:
 - Fundamental protections, tiered constitutional layers, and anti-capture
   protections left the glossary. What protects a charter depends too much on
   its scenario for the framework to prescribe it.
-- The framework defines modes of intervention against a malign charter, such
+- The framework defines forms of recourse against a malign charter, such
   as exit, secession, escalation, demotion, and receivership. Without
-  arbitration, each mode becomes struggle.
+  arbitration, each form becomes struggle. The form was called *intervention*
+  until October 28, 2026.
 - Centralization is a parameter that each charter's articles control.
 - The framework's job is a standardized charter model of dimensions,
   parameters, states, transitions, and outputs, so that existing theory

@@ -214,16 +214,11 @@ Before claiming novelty in public, read Grassroots Federation, McGinnis
 
 These decisions and tasks are still open, as of October 28, 2026:
 
-- Decide whether to redefine *commons* to cover intangible holdings, such
-  as knowledge, culture, reputation, and relationships with associates.
-- Decide whether to rename *intervention*, which means interference in a
-  sovereign state in international relations.
 - Decide whether to add new intellectual relatives: IAD and McGinnis,
   Grassroots Federation, *Plurality*, futarchy, FOCJ, Michels, Hirschman, and
   Nozick.
 - Decide whether to add two open problems: the Olson problem and multitask
   distortion.
-- Rewrite the generativity gap entry to credit the Hayek answer.
 - Soften the metastability language in the ecumenical charter entry.
 - Mention the Open problems section in the page introduction in
   [`site.yaml`](../site/content/site.yaml).
@@ -241,6 +236,20 @@ Later reviews settled the following items:
   to charter design.
 - **Neutrality of capability welfare.** Moot. Welfare is no longer the
   framework's measure, only one that a charter can adopt.
+- **Commons.** Redefined on October 28, 2026, to cover intangible holdings,
+  such as knowledge, cultural heritage, reputation, and contracts with
+  associates. It follows the knowledge commons work of Hess and Ostrom and
+  Tirole's collective reputation, and it's a common property regime, not a
+  common-pool resource.
+- **Intervention.** Renamed *recourse* on October 28, 2026, because
+  *intervention* means interference in a sovereign state in international
+  relations. *Contingency* names the event that triggers a recourse.
+- **Generativity gap.** Rewritten on October 28, 2026. How much generativity
+  a charter needs, and how it pursues it, is a choice for its design. A
+  charter optimizes generativity analytically, through sibling experiments
+  and a decentralized, delegated structure, not quantitatively, because no
+  measure captures it accurately. The entry credits Hayek and Stanley and
+  Lehman.
 
 ## Sources from recent work
 

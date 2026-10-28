@@ -800,17 +800,22 @@ problem and verifies that the structure scales to an optimum.
 
 The author divided the project into four parts:
 
-- **Framework.** The structure that every charter shares. This part is the
-  existing glossary.
-- **Model.** Observations of the current state of human society.
-- **Question.** What society ought to be.
-- **Answer.** What is to be done.
+- **Framework.** The generic structure that every charter shares. This part
+  is the existing glossary.
+- **Model.** Observations of a specific society as it is.
+- **Question.** What a specific society ought to be.
+- **Answer.** What is to be done in a specific scenario.
 
-Opinionated content retired from the Framework moves to the Question. The
-welfare entry, with its capability-based definition, is now one candidate
-ideal in the Question part, not the Framework's measure. The claim of
-advantage over democratic and autocratic structures is dropped, because the
-restated thesis replaces it.
+Only the Framework is generic. The other three parts apply it to specific
+scenarios, so generic content stays in the Framework even when it carries an
+opinion. For example, the big tent is a generic justification of merit, so it
+stays. The author hasn't started work on the other three parts, and they're
+empty.
+
+The welfare entry stays in the Framework as a generic measure that a charter
+can adopt in its objective function. It's no longer the Framework's own
+measure. The claim of advantage over democratic and autocratic structures is
+dropped, because the restated thesis replaces it.
 
 ### Effect on the glossary
 
@@ -818,11 +823,12 @@ restated thesis replaces it.
   framework's measure, and the claim of advantage is removed.
 - **Decomposability.** New premise entry, in the narrowed form, with A2
   folded in.
-- **Welfare.** Moved to a new Ideals section in the Question part.
+- **Welfare.** Moved from the Intent section to the Execution section, as a
+  measure that a charter can adopt.
 - **Obscured consensus.** States transparency of the problem, and leaves the
   transparency of positions to each mechanism.
 - **Site structure.** The page now groups its sections into the four parts.
-  The Model and Answer parts are empty.
+  The Model, Question, and Answer parts are empty.
 
 ## Sources to verify
 

@@ -1,4 +1,17 @@
 eyebrow: Reference · Social Charter
 title: Social Charter glossary
-lede: "**The Social Charter** is an optimization framework for society that makes overlapping interests explicit, so that designed mechanisms, instead of implicit consensus, can move society to better states."
-intro: The terms appear in the order that the ideas build on each other. Start with the intent behind the Social Charter, the premises it responds to, and its principles. Then read about the building blocks, how they fit together, and how a charter acts, measures itself, and changes.
+lede: "**The Social Charter** is a universal framework for organizing society. It models any part of society as a known problem, so that well-studied theory can organize it efficiently at any scale."
+intro: The glossary has four parts. The Framework describes the structure that every charter shares, and takes no position on what society ought to be. The Model observes the current state of human society. The Question asks what society ought to be, and the Answer sets out what is to be done. Within each part, the terms appear in the order that the ideas build on each other.
+parts:
+  - id: framework
+    title: Framework
+    intro: The structure that every charter shares. It models any part of society as a known problem, and takes no position on what society ought to be.
+  - id: model
+    title: Model
+    intro: Observations of the current state of human society.
+  - id: question
+    title: Question
+    intro: What society ought to be. The ideals here are candidate parameters for the Framework, not part of it.
+  - id: answer
+    title: Answer
+    intro: What is to be done.

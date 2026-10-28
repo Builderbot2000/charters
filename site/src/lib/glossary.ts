@@ -4,7 +4,7 @@ import Markdoc, { type Config } from "@markdoc/markdoc";
 const { Tag } = Markdoc;
 import YAML from "yaml";
 
-type Section = { id: string; n: number; title: string; intro: string; order: number; terms: Term[] };
+type Section = { id: string; n: number; title: string; intro: string; order: number; part: string; terms: Term[] };
 type Term = {
   id: string; num: string; term: string; aka: string[]; layer: string; section: string; order: number;
   definition: string; example: string; seeAlso: string[]; body: string; search: string;
@@ -52,7 +52,7 @@ export function loadGlossary() {
   const sections = new Map<string, Section>();
   for (const [p, raw] of Object.entries(sectionFiles)) {
     const d = YAML.parse(raw) ?? {};
-    sections.set(fileSlug(p), { id: "s-" + fileSlug(p), n: 0, title: d.title, intro: d.intro ?? "", order: d.order ?? 0, terms: [] });
+    sections.set(fileSlug(p), { id: "s-" + fileSlug(p), n: 0, title: d.title, intro: d.intro ?? "", order: d.order ?? 0, part: d.part ?? "framework", terms: [] });
   }
 
   const terms = new Map<string, Term>();
@@ -118,8 +118,19 @@ export function loadGlossary() {
   const site = YAML.parse(Object.values(siteFile)[0] ?? "") ?? {};
   const relatives = YAML.parse(Object.values(relativesFile)[0] ?? "") ?? null;
 
+  // Group sections into the parts that site.yaml lists, in that order.
+  const partDefs: { id: string; title: string; intro?: string }[] = site.parts ?? [{ id: "framework", title: "Framework" }];
+  rendered.forEach(sec => {
+    if (!partDefs.some(p => p.id === sec.part)) console.warn(`Section "${sec.title}" has unknown part "${sec.part}", so it isn't shown.`);
+  });
+  const parts = partDefs.map(p => ({
+    id: "p-" + p.id, title: p.title, intro: inline(p.intro ?? ""),
+    sections: rendered.filter(sec => sec.part === p.id),
+  }));
+
   return {
     site: { ...site, lede: inline(site.lede ?? ""), intro: inline(site.intro ?? "") },
+    parts,
     sections: rendered,
     relatives,
     termCount: terms.size,

@@ -6,8 +6,10 @@ Premise sections of the glossary, the author's statements from September 26
 to October 22, 2026, and the
 [literature review](literature-review.md).
 
-Status as of October 22, 2026. Nothing in this document changes the glossary.
-Each recommendation is a decision for the author.
+Status as of October 28, 2026. The author answered the last framework-level
+decisions on that day. The answers, and a restated thesis, are recorded in
+[Answers on October 28, 2026](#answers-on-october-28-2026) and integrated into
+the glossary. Earlier sections keep the October 22 analysis as it was.
 
 ## Consolidated statement
 
@@ -729,6 +731,99 @@ These framework-level decisions are still open:
    "more efficiently." The welfare function inside each charter is routed to
    charter design.
 
+## Answers on October 28, 2026
+
+The author answered or delegated every remaining framework-level decision,
+and restated the thesis.
+
+### Decisions delegated or already closed
+
+Five of the seven decisions turned out to be charter design, or were already
+answered by the glossary's wording:
+
+- **Decision 1, narrowing obscured consensus.** Delegated. Whether positions
+  are public or sealed is a choice of mechanism. The framework needs only
+  transparency of the problem, which the charter model supplies. The
+  obscured consensus entry now says so.
+- **Decision 2, factions as child charters.** Delegated. Whether a faction
+  becomes a child charter, a tier, or a separate charter is a choice of
+  centralization, which is a charter parameter.
+- **Decision 3, who engineers "from above."** Closed. The author routed it to
+  constitutional design on October 24, 2026, and on October 28 made democracy
+  a design choice. Whoever holds constitutional authority does the
+  engineering.
+- **Decision 4, the meaning of "the common good."** Closed. The factional
+  interest entry already uses each group's common interest.
+- **Decision 6, coalition-decided exclusion.** Delegated. Exclusion is the
+  assignment of a status, which each charter makes. The framework doesn't
+  claim that exclusion is legitimate, because it's infrastructure, not a
+  moral theory.
+
+### Decision 5, stating dependencies
+
+The author's position: the framework's dependencies are recorded in its
+premises. A2, separability of interests, is folded into a new premise. Where
+one person holds interests that depend on each other, such as keeping money
+and investing it to earn more, the person arbitrates among them as their own
+personal corporation. At some level, interests are atomic and independent.
+Dependencies between charters are spillovers that a common parent handles.
+
+### Decision 7 and the restated thesis
+
+The author called the claim of advantage over democratic and autocratic
+structures an outdated artifact from when the framework was more
+opinionated. The restated thesis, in the author's words:
+
+> The charter provides a universal framework that promotes maximal
+> organizational efficiency at any scale by allowing the targeted application
+> of well-studied theoretical heuristics onto the model of a known problem at
+> any point of the societal fabric, under the assumption that the local
+> optimums are greedily scalable to the global optima because of the theory
+> around efficiency of informational adjacency and granularity of control.
+> This is now a framework that is infrastructure to the opinionated ideals and
+> societal conditions that will serve as its parameters to form an optimal
+> ideology.
+
+The thesis rests on a new assumption: local optima scale to the global
+optimum. Greedy optimization doesn't scale in general, as the prisoner's
+dilemma and the question of arbitration show. The author accepted a narrowed
+form: local optima add up to the global optimum when society is nearly
+decomposable (Simon, 1962) and parent charters internalize the spillovers
+between their children. Hayek (1945) supports informational adjacency, Ashby's
+law of requisite variety supports granularity of control, and Oates (1972)
+states the no-spillover condition.
+
+The author wants a later study that fits a charter's design to a known
+problem and verifies that the structure scales to an optimum.
+
+### Four parts
+
+The author divided the project into four parts:
+
+- **Framework.** The structure that every charter shares. This part is the
+  existing glossary.
+- **Model.** Observations of the current state of human society.
+- **Question.** What society ought to be.
+- **Answer.** What is to be done.
+
+Opinionated content retired from the Framework moves to the Question. The
+welfare entry, with its capability-based definition, is now one candidate
+ideal in the Question part, not the Framework's measure. The claim of
+advantage over democratic and autocratic structures is dropped, because the
+restated thesis replaces it.
+
+### Effect on the glossary
+
+- **Social Charter.** Restated around the thesis. Welfare is no longer the
+  framework's measure, and the claim of advantage is removed.
+- **Decomposability.** New premise entry, in the narrowed form, with A2
+  folded in.
+- **Welfare.** Moved to a new Ideals section in the Question part.
+- **Obscured consensus.** States transparency of the problem, and leaves the
+  transparency of positions to each mechanism.
+- **Site structure.** The page now groups its sections into the four parts.
+  The Model and Answer parts are empty.
+
 ## Sources to verify
 
 The following sources are new to this document. Check each against its
@@ -775,5 +870,11 @@ primary source before publishing:
 - Hammar, *Democracy and the Nation State*, 1990, on denizens
 - Atran's research on devoted actors and sacred values
 - Whelan, "Democratic Theory and the Boundary Problem," 1983
+- Hayek, "The Use of Knowledge in Society," *American Economic Review*, 1945
+- Ashby, *An Introduction to Cybernetics*, 1956, for the law of requisite
+  variety
+- Simon, "The Architecture of Complexity," *Proceedings of the American
+  Philosophical Society*, 1962
+- Oates, *Fiscal Federalism*, 1972
 
 For every other source, see the [literature review](literature-review.md).

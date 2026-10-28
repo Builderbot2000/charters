@@ -2,7 +2,7 @@
 import { loadGlossary } from "../lib/glossary";
 import "../styles/glossary.css";
 
-const { site, sections, relatives, termCount } = loadGlossary();
+const { site, parts, sections, relatives, termCount } = loadGlossary();
 ---
 <!doctype html>
 <html lang="en">
@@ -33,8 +33,13 @@ const { site, sections, relatives, termCount } = loadGlossary();
         <label id="toc-label">Contents</label>
         <nav id="toc" aria-labelledby="toc-label">
           <ol class="toc" id="toc-list">
-            {sections.map(sec => (
-              <li data-sec={sec.id}><a href={`#${sec.id}`}><span class="n">{sec.n}</span><span>{sec.title}</span><span class="c">{sec.terms.length}</span></a></li>
+            {parts.map(part => (
+              <>
+                <li class="part" data-part={part.id}><a href={`#${part.id}`}>{part.title}</a></li>
+                {part.sections.map(sec => (
+                  <li data-sec={sec.id}><a href={`#${sec.id}`}><span class="n">{sec.n}</span><span>{sec.title}</span><span class="c">{sec.terms.length}</span></a></li>
+                ))}
+              </>
             ))}
           </ol>
         </nav>
@@ -44,26 +49,32 @@ const { site, sections, relatives, termCount } = loadGlossary();
 
     <main>
       <div id="list">
-        {sections.map(sec => (
-          <section class="sec" id={sec.id}>
-            <div class="sec-head"><span class="n">Section {sec.n}</span><h2>{sec.title}</h2><p>{sec.intro}</p></div>
-            {sec.terms.map(e => (
-              <article class="entry" id={e.id} data-search={e.search}>
-                <h3><a class="perma" href={`#${e.id}`}>{e.term}</a></h3>
-                <div class="meta">
-                  <span class="num">{e.num}</span>
-                  {e.layer && <span class="layer">{e.layer}</span>}
-                  {e.aka.length > 0 && <span class="aka">Also called {e.aka.join(", ")}</span>}
-                </div>
-                <p class="def" set:html={e.definition} />
-                {e.body && <div class="more" set:html={e.body} />}
-                {e.example && <div class="ex"><b>Example</b><Fragment set:html={e.example} /></div>}
-                {e.seeAlso.length > 0 && (
-                  <p class="see">See also: {e.seeAlso.map((s, i) => <>{i > 0 && ", "}<a href={`#${s.id}`}>{s.term}</a></>)}</p>
-                )}
-              </article>
+        {parts.map(part => (
+          <div class="part" id={part.id} data-part={part.id}>
+            <div class="part-head"><span class="n">Part</span><h2>{part.title}</h2>{part.intro && <p set:html={part.intro} />}</div>
+            {part.sections.length === 0 && <p class="part-empty">Nothing here yet.</p>}
+            {part.sections.map(sec => (
+              <section class="sec" id={sec.id}>
+                <div class="sec-head"><span class="n">Section {sec.n}</span><h3>{sec.title}</h3><p>{sec.intro}</p></div>
+                {sec.terms.map(e => (
+                  <article class="entry" id={e.id} data-search={e.search}>
+                    <h4><a class="perma" href={`#${e.id}`}>{e.term}</a></h4>
+                    <div class="meta">
+                      <span class="num">{e.num}</span>
+                      {e.layer && <span class="layer">{e.layer}</span>}
+                      {e.aka.length > 0 && <span class="aka">Also called {e.aka.join(", ")}</span>}
+                    </div>
+                    <p class="def" set:html={e.definition} />
+                    {e.body && <div class="more" set:html={e.body} />}
+                    {e.example && <div class="ex"><b>Example</b><Fragment set:html={e.example} /></div>}
+                    {e.seeAlso.length > 0 && (
+                      <p class="see">See also: {e.seeAlso.map((s, i) => <>{i > 0 && ", "}<a href={`#${s.id}`}>{s.term}</a></>)}</p>
+                    )}
+                  </article>
+                ))}
+              </section>
             ))}
-          </section>
+          </div>
         ))}
       </div>
       <p id="empty" hidden>No terms match your search. Try a shorter or different word.</p>

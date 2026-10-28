@@ -31,6 +31,12 @@ function apply() {
     li.hidden = k === 0;
     li.querySelector(".c")!.textContent = String(k);
   });
+  // Hide a part, and its contents label, while a search leaves it no matching terms.
+  document.querySelectorAll<HTMLElement>("div.part").forEach(part => {
+    const none = !!term && !part.querySelector("section.sec:not([hidden])");
+    part.hidden = none;
+    toc.querySelector<HTMLElement>(`li.part[data-part="${part.id}"]`)!.hidden = none;
+  });
   document.getElementById("empty")!.hidden = n > 0;
   count.textContent = n === total ? `${n} terms in ${sections.length} sections` : `Showing ${n} of ${total} terms`;
 }

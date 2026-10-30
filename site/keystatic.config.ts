@@ -53,6 +53,17 @@ export default config({
       columns: ["order"],
       schema: {
         title: fields.slug({ name: { label: "Title" } }),
+        part: fields.select({
+          label: "Part",
+          options: [
+            { label: "Philosophy", value: "philosophy" },
+            { label: "Framework", value: "framework" },
+            { label: "Model", value: "model" },
+            { label: "Question", value: "question" },
+            { label: "Answer", value: "answer" },
+          ],
+          defaultValue: "framework",
+        }),
         order: fields.integer({ label: "Order", validation: { isRequired: true } }),
         intro: text("Introduction"),
       },

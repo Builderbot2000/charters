@@ -1,8 +1,11 @@
 eyebrow: Reference · Social Charter
 title: Social Charter glossary
 lede: "**The Social Charter** is a universal framework for organizing society. It models any part of society as a known problem, so that well-studied theory can organize it efficiently at any scale."
-intro: "The glossary has four parts. The Framework is generic: it describes the structure that every charter shares, and takes no position on what society ought to be. The other three parts apply it to specific scenarios. The Model observes a specific society as it is, the Question asks what it ought to be, and the Answer sets out what is to be done. Within each part, the terms appear in the order that the ideas build on each other."
+intro: "The glossary has five parts. The Philosophy sets out the foundation: where the authority to pursue an end comes from, how an end justifies its means, and what settles the conflict between competing ends. The Framework is generic: it describes the structure that every charter shares, and takes no position on what society ought to be. The other three parts apply it to specific scenarios. The Model observes a specific society as it is, the Question asks what it ought to be, and the Answer sets out what is to be done. Within each part, the terms appear in the order that the ideas build on each other."
 parts:
+  - id: philosophy
+    title: Philosophy
+    intro: The philosophical foundation of the Social Charter. It holds that authority originates in human agency, that an end justifies its means through its own principles, and that the material world settles conflicts between ends without judging them morally.
   - id: framework
     title: Framework
     intro: The generic structure that every charter shares. It models any part of society as a known problem, and takes no position on what society ought to be.

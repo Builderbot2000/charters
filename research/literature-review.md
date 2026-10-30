@@ -43,6 +43,10 @@ idea:
 | Commission, as the formation end | Devolution | Constitutional practice. Stepan's holding-together federations. |
 | Opponent | Adversary | Mouffe, agonism |
 | Dispersal, as the alias of centralization | Decentralization | Fiscal federalism. Hooghe and Marks, Regional Authority Index. |
+| Logical axiom | Non-logical axiom | Mathematical logic |
+| Internal legitimacy | Internal justification | Wróblewski, legal theory |
+| Sacrosanct axiom | Protected value | Baron and Spranca, decision psychology |
+| Adaptation without foundational revision | Protective belt | Lakatos, philosophy of science |
 
 *Representation vector* keeps its name, and adds Simmel's *web of group
 affiliations* as an alias.
@@ -210,9 +214,110 @@ development of Ostrom's polycentric framework that uses mechanism design.
 Before claiming novelty in public, read Grassroots Federation, McGinnis
 (2011), and Modular Politics in full.
 
+## Philosophy part
+
+On October 30, 2026, the Philosophy part was checked against existing
+literature, to find terms that rename ideas that already have names. The
+comparison comes from general knowledge, and four web searches confirmed the
+least familiar citations.
+
+### Terms with an established name
+
+The following terms match an established idea closely enough that the
+established name replaced them on October 30, 2026. Each former name stays as
+an alias, except *logical axiom*, because that name means something else in
+logic. The non-logical axiom entry now uses a Peano axiom as its example, and
+*natural resistance* keeps its name and adds *right of resistance* as an
+alias:
+
+| Former term | Established name | Source | Fit |
+|---|---|---|---|
+| Logical axiom | Non-logical axiom, also called a *proper axiom* or *postulate* | Mathematical logic | Conflicts. In logic, a *logical axiom* is true in every structure, such as an instance of *A or not A*. An axiom that belongs to one system, such as arithmetic, is a non-logical axiom. Also, 1 + 1 = 2 isn't an axiom of arithmetic. Whitehead and Russell's *Principia Mathematica* (1910 to 1913) derives it as a theorem, and in Peano arithmetic it follows from the definitions of 1, 2, and addition. |
+| Internal legitimacy | Internal justification | Wróblewski, "Legal Decision and Its Justification" (1971) | Close. A decision is internally justified when it follows validly from its premises, and the soundness of the premises isn't tested. In political science, *internal legitimacy* means a state's acceptance by its own population, as opposed to its recognition by other states. |
+| Sacrosanct axiom | Protected value, also called a *sacred value*. For the action-centered part, *side constraint*. | Baron and Spranca, "Protected Values" (1997). Tetlock, "Thinking the Unthinkable" (2003). Nozick, *Anarchy, State, and Utopia* (1974). | Close. Protected values resist trade-offs with other values, don't respond to quantity, and come from rules about actions, not outcomes. The thesis's difference between surrender and defeat is this difference between acting and allowing. Nozick's side constraints restrict what an agent does, instead of setting a goal to maximize. Rawls's *lexical priority* of liberty (1971) is the same idea applied to liberty. |
+| Adaptation without foundational revision | Hard core and protective belt | Lakatos, "Falsification and the Methodology of Scientific Research Programmes" (1970) | Close. A research program keeps its hard core fixed by a methodological decision, the *negative heuristic*, and revises the protective belt of auxiliary hypotheses around it. The constitutional counterparts are unamendable provisions, such as Article 79(3) of the German Basic Law, and India's basic structure doctrine (*Kesavananda Bharati*, 1973). The glossary already cites goal and instrument independence, in the Delegation entry, for the same split. |
+| Natural resistance | Right of resistance, or right of revolution | Locke, *Second Treatise* (1689), chapter 19. Article 20(4) of the German Basic Law. | Partial. The established terms name a right. The thesis names a capacity, and also speaks of a right. |
+
+### Terms that keep their names
+
+The following terms have relatives in the literature, but no relative means
+the same thing:
+
+| Term | Nearest established ideas | Difference |
+|---|---|---|
+| Thesis of immanent authority | Weber, "Politics as a Vocation" (1919), on the ethics of conviction and of responsibility. The Trotsky–Dewey exchange, "Their Morals and Ours" and "Means and Ends" (1938). Sartre, "Existentialism Is a Humanism" (1946). | Weber and Dewey ask the same question about ends and means. Trotsky and Dewey both hold that an end limits its own means, as the thesis does. Sartre holds that people author their values without a guarantor. None of them pairs this with a material arbiter that gives no verdict. |
+| Immanent authority | Kant's autonomy, as opposed to heteronomy. Metaethical constructivism, such as Korsgaard, *The Sources of Normativity* (1996). Lacan's *big Other* (*le grand Autre*), which the thesis's *l'Autre* recalls. | Kant's autonomy and Korsgaard's constructivism ground morality in the agent but claim that it binds universally. The thesis denies universality. |
+| Derivative authority | Consent theory of political authority (Locke). The inalienability of sovereignty (Rousseau, *The Social Contract*, 1762). Mill on selling oneself into slavery, *On Liberty* (1859), chapter 5. Philosophical anarchism (Wolff, *In Defense of Anarchism*, 1970). Militant democracy (Loewenstein, 1937). | The parts are established: Mill's "It is not freedom, to be allowed to alienate his freedom," and Loewenstein's defense of liberty against those who would destroy it. Unlike Wolff, the thesis accepts an institution's authority while its members uphold it. |
+| Absolute end | Rawls's *comprehensive doctrine* and *reasonable pluralism*, *Political Liberalism* (1993) | A comprehensive doctrine is a whole worldview. An absolute end is one purpose with a complete account of its costs. Both are binding to adherents without binding everyone. |
+| Material arbitration | Hume's is–ought gap. Schiller's line "World history is the world's court of judgment," which Hegel quotes in the *Philosophy of Right* (1820), §340. | The thesis denies Hegel's claim: history decides outcomes but passes no moral judgment. In the glossary, it's the same thing as *noncooperative struggle*. See the limit of arbitration entry. |
+| Material actuality | Hegel's *Wirklichkeit*. Aristotle's actuality, as opposed to potentiality. | The thesis uses Hegel's term in a restricted, material sense. In the glossary, it overlaps with the Natural Charter, which is the set of constraints that reality imposes. |
+
+The section *Plurality and actuality* also has an established name for its
+first half: Isaiah Berlin's *value pluralism*, from "Two Concepts of Liberty"
+(1958). Berlin holds that human ends are many, sometimes incompatible, and
+sometimes incommensurable. Weber's "warring gods," in "Science as a Vocation"
+(1917), is an earlier form of the same idea.
+
+### The thesis as a whole
+
+No single existing theory replaces the whole thesis. The closest whole
+positions are these:
+
+| Position | What it shares with the thesis | Difference |
+|---|---|---|
+| Weber's value pluralism, in "Science as a Vocation" and "Politics as a Vocation" (1919) | Ultimate values are chosen, not proven, and no science or higher authority settles the conflict between them. Legitimacy rests on belief, not on an outside moral order. | Weber's ethic of conviction ignores consequences, but an absolute end includes them. Weber has no counterpart of derivative authority. |
+| Harman, "Moral Relativism Defended" (1975) | Moral judgments bind only within a framework, and frameworks can be incompatible. | Harman grounds a framework in agreement among people. The thesis grounds it in an end's own axioms. |
+| Williams, *In the Beginning Was the Deed* (2005) | Legitimacy doesn't come from a morality that comes before politics. | Williams has no theory of absolute ends. |
+| Carnap's principle of tolerance, *The Logical Syntax of Language* (1934) | Anyone can build their own logical system, and no system is the correct one. | Carnap applies the principle to logic, not to ethics. |
+
+Three other positions are further away. Sartre holds that people author their
+values without a guarantor, but also that choosing for oneself is choosing for
+everyone, which is a claim of universality. Stirner places no authority above
+the individual, but he treats power as right, which the thesis rejects. Carl
+Schmitt's decisionism places authority in a sovereign's decision, not in each
+person's agency.
+
+What seems new is the combination of three ideas: ends that bind only their
+adherents, limits on means that come from each end's own axioms, and a
+material arbiter that gives no moral verdict. A short description is Weberian
+value pluralism with Nozick's side constraints placed inside each end, and
+with Locke's consent theory and right of revolution for institutions.
+
+On October 30, 2026, the Philosophy entries gained citations to these
+relatives. The thesis entry cites Weber, Trotsky and Dewey, Harman, Williams,
+and Carnap. The other entries cite Kant and Korsgaard, Locke, Rousseau, Mill,
+Loewenstein, Rawls, Berlin, Hegel and Schiller, and Hume.
+
+### Persistence and the license of operation
+
+On October 30, 2026, the material actuality entry gained two positions that
+the original thesis doesn't state:
+
+- **Verdict by persistence.** Material actuality gives its verdict through
+  continued existence. An end that persists has material reality's assent,
+  which reconciles reality with the end's internal justification. The assent
+  is material, not moral. The claim holds by definition, because an end that
+  doesn't persist has no holders left whose operation needs justifying.
+- **License of operation.** Persistence licenses an end to operate. The
+  license is internally conditional: it holds only while the end adheres to
+  its axioms, so an end that contradicts its internal justification loses it,
+  however long it persists. The license is externally unconstrained. It
+  retires the duty to answer moral challenges from outside. Challenges and
+  opposition continue, as a source of constructive surprise, not of doubt.
+
+The following ideas from the literature relate to these positions:
+
+| Idea | Source | Relation |
+|---|---|---|
+| Social license to operate | Mining and corporate ethics, from the late 1990s | Name collision. A social license means ongoing acceptance by affected communities, which is an external condition. The entry uses *license of operation* instead of *license to operate* to avoid confusion. |
+| The tautology objection to "survival of the fittest," and the propensity interpretation of fitness | Mills and Beatty, "The Propensity Interpretation of Fitness" (1979) | Same objection. Survival as a verdict can only be read after the fact. Biology answers it by defining fitness as an expected tendency to survive, which can predict and be tested. A comparable predictive measure for ends doesn't exist yet. |
+| Cultural evolution | Hayek, *Law, Legislation and Liberty* (1973 to 1979) and *The Fatal Conceit* (1988) | Near relative. Rules are confirmed by the survival of the groups that follow them. Hayek treats survival as a reason to respect inherited rules, which leans closer to a moral reading. |
+| Social Darwinism | Nineteenth-century social theory | Contrast. It treats survival as proof of being right, which the thesis rejects. |
+| Democratic centralism | Leninist party organization: freedom of discussion, unity of action | Loose analogy, in a different scope and context. Opposition is welcome, but action isn't conditional on it. |
+
 ## Open decisions
 
-These decisions and tasks are still open, as of October 28, 2026:
+These decisions and tasks are still open, as of October 30, 2026:
 
 - Decide whether to add new intellectual relatives: IAD and McGinnis,
   Grassroots Federation, *Plurality*, futarchy, FOCJ, Michels, Hirschman, and
@@ -225,6 +330,10 @@ These decisions and tasks are still open, as of October 28, 2026:
 
 Later reviews settled the following items:
 
+- **Material arbitration.** Merged into *material actuality* on October 30,
+  2026, as *arbitration by material actuality*. Material arbitration was
+  material actuality applied to a conflict between ends, so one entry covers
+  both. Both names stay as aliases.
 - **Contested premises.** Obscured consensus is narrowed to transparency of
   the problem. Issue bundling's separability problem is folded into the
   decomposability premise. How big tents pool resources is left to charter
@@ -267,3 +376,7 @@ Later reviews settled the following items:
 - [IG Parser: encoding institutional statements with the Institutional Grammar](https://arxiv.org/pdf/2505.13393)
 - [Eichenberger and Frey, FOCJ as a model for Europe](https://www2.lse.ac.uk/european-institute/Assets/Documents/LEQS-Discussion-Papers/LEQSPaper3.pdf)
 - [Chebotareva and Friedrich, microeconomic modelling of FOCJ](https://ojs.utlib.ee/index.php/TPEP/article/download/13720/8767/11817)
+- [Rodríguez on Wróblewski's internal and external justification](https://epub.ius.bg.ac.rs/index.php/eudaimonia/article/download/631/667)
+- [Baron and Spranca, Protected Values (RAND summary)](https://www.rand.org/pubs/external_publications/EP19970407.html)
+- [Harfst and Wiesner (2024), internal and external legitimacy](https://www.frontiersin.org/articles/10.3389/fpos.2024.999743/full)
+- [Lakatos's hard core and protective belt, in the MOND and dark matter debate](https://arxiv.org/pdf/2306.13026)

@@ -11,8 +11,22 @@ traditions:
     ideas: Governance through autonomous associations and decentralized political authority
   - name: Polycentric governance (Elinor Ostrom)
     ideas: Nested institutions, many centers of authority, and local autonomy with higher-level coordination
+  - name: Institutional Analysis and Development framework (Ostrom) and networks of action situations (Michael McGinnis)
+    ideas: A common blueprint for analyzing any action situation, and linked action situations whose outcomes feed each other
+  - name: Functional, overlapping, and competing jurisdictions (Bruno Frey and Reiner Eichenberger)
+    ideas: Single-purpose jurisdictions that overlap, compete for members, and allow exit
+  - name: Exit, voice, and loyalty (Albert Hirschman)
+    ideas: Exit and voice as the two responses to a declining organization, and loyalty as what delays exit
+  - name: Framework for utopia (Robert Nozick)
+    ideas: A minimal framework inside which people form and leave communities built on their own ideals
+  - name: Iron law of oligarchy (Robert Michels)
+    ideas: The tendency of every organization's leadership to form an elite with interests of its own
   - name: Viable System Model (Stafford Beer)
     ideas: Recursive organizational autonomy and decentralized information with system-wide integration
+  - name: Knowledge hierarchies (Luis Garicano)
+    ideas: Hierarchies in which routine problems stay with the people who meet them, and harder problems pass up to specialists
+  - name: NK model (Stuart Kauffman)
+    ideas: Fitness landscapes whose ruggedness depends on how strongly parts interact, and the limits of local search on them
   - name: Holacracy
     ideas: Constitutional authority, explicit domains, delegated roles, nested circles, and governance processes
   - name: Liquid democracy
@@ -21,5 +35,11 @@ traditions:
     ideas: Many simultaneous authorities with overlapping jurisdictions
   - name: Capability approach (Amartya Sen, Martha Nussbaum)
     ideas: Welfare as real freedom to do and be what one values, judged by what resources make possible instead of by the resources themselves
+  - name: Futarchy (Robin Hanson)
+    ideas: Members vote on the values to pursue, and prediction markets choose the policies that serve them
+  - name: Plurality (E. Glen Weyl and Audrey Tang)
+    ideas: Technology for cooperation across difference, with overlapping groups and plural forms of voting and funding
+  - name: Grassroots Federation
+    ideas: Democratic federations that grow from small assemblies, with consent-based joining and fair governance at scale
   - name: DAO constitutionalism
     ideas: Digitally implemented constitutions with membership, delegation, and amendment systems

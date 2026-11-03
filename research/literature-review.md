@@ -317,18 +317,27 @@ The following ideas from the literature relate to these positions:
 
 ## Open decisions
 
-These decisions and tasks are still open, as of October 30, 2026:
-
-- Decide whether to add new intellectual relatives: IAD and McGinnis,
-  Grassroots Federation, *Plurality*, futarchy, FOCJ, Michels, Hirschman, and
-  Nozick.
-- Decide whether to add two open problems: the Olson problem and multitask
-  distortion.
-- Soften the metastability language in the ecumenical charter entry.
-- Mention the Open problems section in the page introduction in
-  [`site.yaml`](../site/content/site.yaml).
+No decisions from this review are open, as of November 3, 2026.
 
 Later reviews settled the following items:
+
+- **Intellectual relatives.** Added on November 3, 2026: IAD and McGinnis,
+  Grassroots Federation, *Plurality*, futarchy, FOCJ, Michels, Hirschman,
+  Nozick, Garicano, and the NK model. Beer was already listed. The author
+  plans to filter the list once the theory is complete, and to drop relatives
+  that turn out to be irrelevant or misnamed.
+- **Olson problem and multitask distortion.** Accepted on November 3, 2026,
+  as open problems. Multitask distortion is recorded as Goodhart's law, with
+  Holmström and Milgrom's model as one mechanism for it. See
+  [open problems](open-problems.md).
+- **Metastability.** Removed on November 3, 2026. The ecumenical charter
+  entry no longer describes a design that keeps society between too much and
+  too little order. Its objective is a choice for the charter's design,
+  anchored in the capability approach and its later developments, such as
+  collective capabilities (Evans, 2002; Stewart, 2005; Ibrahim, 2006). These
+  three citations come from general knowledge and still need checking.
+- **Open problems on the site.** Withdrawn. The author keeps open problems in
+  the repository, not on the site.
 
 - **Material arbitration.** Merged into *material actuality* on October 30,
   2026, as *arbitration by material actuality*. Material arbitration was

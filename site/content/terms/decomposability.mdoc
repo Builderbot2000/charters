@@ -3,24 +3,60 @@ term: Decomposability
 aka:
   - Near-decomposability
   - Scalable optimization
+  - Optimal substructure
 section: premise
 order: 50
-definition: The assumption that local optima add up to the global optimum when society is nearly decomposable and parent charters internalize the spillovers between their children.
+definition: "The premise that, within the domain of arbitration, a composition of charters is optimal when each of its charters is optimal given the capabilities it can afford."
 seeAlso:
   - social-charter
   - escalation
   - externality
+  - arbitration
+  - contract
   - centralization
 ---
-The Social Charter optimizes each part of society locally and relies on the results adding up. Two observations support this assumption:
+The Social Charter is meant to make social organization optimizable. Each charter can be designed and improved on its own, and the composition of charters inherits each charter's optimality. Computer science calls this property *optimal substructure*: an optimal solution is built from optimal solutions to its parts. Richard Bellman stated it for sequential decisions as the *principle of optimality* (*Dynamic Programming*, 1957).
 
-- **Informational adjacency.** The people closest to a problem know the most about it, so decisions made near the problem use information that a distant center lacks (Hayek, "The Use of Knowledge in Society," 1945).
+Local optimization doesn't compose in general. In a prisoner's dilemma, each party's local optimum adds up to a worse result for everyone, and the [[question of arbitration]] is a case of the same failure. Economists find the same limit in fiscal federalism. Wallace Oates's *decentralization theorem* states that local decisions do at least as well as central ones when there are no spillovers between localities and no savings from central provision (*Fiscal Federalism*, 1972). The charter structure supplies optimal substructure by routing every spillover through a parent.
+
+A charter's optimum is the best configuration it can reach with the information, processing, and communication that it can afford. No charter has full information, however it gathers information, so the guarantee doesn't assume it. A parent's optimum includes its choice of constraints on its constituents, made in anticipation of how they respond.
+
+A parent's constraints are enforced constraints: a rule, together with the parent's means of detecting and penalizing a breach. A constituent's optimum is its best response to the rule as the parent actually enforces it, including the expected penalty for breaking it.
+
+The guarantee holds under one condition: constituents interact only through their parent's enforced constraints. The framework's definitions supply that condition:
+
+- [[Arbitration]] resolves every escalated conflict under the charter of the parent whose higher-order common interest covers it.
+- A parent governs and enforces the [[contract|contracts]] between its constituents, and it can limit which contracts they enter with parties outside its jurisdiction.
+- A contract that a parent doesn't enforce, such as an illegal side deal between siblings, is part of the response that the parent anticipates. The parent designs its constraints against it, through detection, penalties, or rules that make the deal unprofitable.
+
+Under that condition, the guarantee follows by induction from the bottom of the [[charter graph]] up. Each [[personal corporation]] is at its optimum by hypothesis. Each parent's constituents are at their optima given its constraints, and the parent chooses its constraints optimally given their responses. A parent is a charter like any other, so the hypothesis that every charter is optimal covers it.
+
+The result is a *nested optimum*, also called a *bilevel* or *Stackelberg* optimum. Each charter's objective is as high as its capabilities allow, given how the charters below it act under their own objectives. The members of each charter set its objective, and the differences between those objectives are the contestation that the composition settles. The guarantee doesn't compare the composition with one central optimizer of the highest charter's objective. Any difference between the two is the cost of each charter's autonomy.
+
+A charter's objective can include a component for justice, such as a rule about how its constituents' gains and losses compare. That component is part of the objective and subject to its optimization, like any other component. So the guarantee needs no framework definition of a just outcome. The composition is optimally just by each charter's own objective, not by a universal standard.
+
+The composition also leaves no outcome that is better for a parent and every one of its constituents, if the parent can afford constraints that lead them to it. The parent would choose that outcome.
+
+The guarantee covers only the domain of arbitration. A conflict that no shared charter covers is settled by noncooperative struggle, which the framework doesn't optimize. See [[limit of arbitration]].
+
+It's also relative to what the structure can afford. A coupling that no party can afford to detect or escalate stays outside it. A structure with more channels, or with different boundaries between charters, might reach a better outcome. Where a parent can design its constituents' channels and boundaries, that design is part of its own optimum.
+
+The guarantee says the composition is optimal. It doesn't say why local decisions are worth their cost. Two observations support placing decisions locally:
+
+- **Cost of moving information.** A decision needs information, and moving information from the node that holds it to the node that decides has a cost. A node gains information by observing, or by computing and analyzing. Being close to a problem doesn't mean knowing the most about it: a nearby node can miss the full picture, or lack the expertise to identify what it observes. So each decision belongs where bringing it together with its information costs least. Michael Jensen and William Meckling call information that's costly to move *specific knowledge* ("Specific and General Knowledge, and Organizational Structure," 1992). Hayek's case is local knowledge that a distant center can't gather ("The Use of Knowledge in Society," 1945).
 - **Granularity of control.** A controller has to match the variety of the system it controls (Ashby's law of requisite variety). Many small charters match the variety of society better than one large one.
 
-Local optimization doesn't scale in general. In a prisoner's dilemma, each party's local optimum adds up to a worse result for everyone, and the [[question of arbitration]] is a case of the same failure. Economists find the same limit in fiscal federalism. Wallace Oates's *decentralization theorem* states that local decisions do at least as well as central ones when there are no spillovers between localities and no savings from central provision (*Fiscal Federalism*, 1972).
+In mechanism design, if communication were free, one central mechanism could do anything that a set of local ones does. The Social Charter places decisions locally because communication has four costs:
 
-The Social Charter meets that condition through its structure. Herbert Simon called a system *nearly decomposable* when the interactions inside each part are much stronger than the interactions between parts ("The Architecture of Complexity," 1962). Where interactions between charters are weak, each charter optimizes on its own. Where they're strong, the spillover becomes an [[externality]] that [[escalation|escalates]] to the parent whose charter covers both. The parent sets the constraints, and its children optimize locally within them.
+- Volume: how much has to be sent
+- Fidelity: how much survives noise along a path
+- Honesty: how much survives the senders' own interests, including several senders that collude
+- Capacity: whether the receiver can absorb it in time
+
+A local decision saves these costs when a problem's information stays inside one charter. Escalation pays them when it doesn't.
+
+Near-decomposability keeps the guarantee affordable. Herbert Simon called a system *nearly decomposable* when the interactions inside each part are much stronger than the interactions between parts ("The Architecture of Complexity," 1962). Where interactions between charters are weak, a parent has little to coordinate, and its constraints are cheap to set. Where they're strong, the spillover becomes an [[externality]] that [[escalation|escalates]] to the parent, and the parent pays more to coordinate it.
 
 The same reasoning covers interests that depend on each other. When one person holds interests that conflict, such as keeping their money and investing it to earn more, the person arbitrates among them as their own [[personal corporation]]. At some level, interests are atomic and independent of each other. When an interest in one charter depends on the outcome in another, the dependency is a spillover between the two charters, and their common parent handles it.
 
-The framework hasn't yet been tested against this assumption. Fitting a charter's design to a known problem, and checking that the structure scales to an optimum, is planned work.
+The guarantee shows that optimal charters compose into an optimal whole. Whether charters can afford to reach their optima is a separate question. A planned study will fit a charter's design to a known problem and measure how close the structure gets to the optimum, using Stuart Kauffman's NK model of interacting parts as its test bed.

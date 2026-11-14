@@ -6,18 +6,30 @@ them.
 
 The first six problems came from the glossary's Open problems section, which
 left the site on November 3, 2026. They're listed with the ones that put the
-most of the framework at risk first. The last two came from the literature
-review of October 22, 2026, and the author accepted them on November 3, 2026.
+most of the framework at risk first. The Olson problem and Goodhart's law came
+from the literature review of October 22, 2026, and the author accepted them on November 3, 2026.
+On November 13, 2026, the author broadened the first problem from preference
+tampering to endogenous preferences, kept it as the top priority, and added
+operator specification at the end. See
+[the Framework as an operator](framework-as-operator.md).
 
-## Preference tampering
+## Endogenous preferences
 
-*Definition:* An executive's shaping of the preferences that it serves and is
-measured against, which no known mechanism reliably prevents.
+*Definition:* The shaping of members' preferences by the circumstances they
+live in, including the charters and executives that serve those preferences
+and are measured against them.
 
-An executive acts on the world, and members live in the world that it shapes.
+The framework treats members' wills as the given input that sets each
+charter's objective. Wills aren't given. Institutions, conditions, and
+emergent structures such as norms shape them. Samuel Bowles calls them
+*endogenous preferences* (1998). *Adaptive preferences*, in which people come
+to want what they can get, are a special case (Elster, 1983).
+
+The problem is sharpest when the optimizer itself does the shaping. An
+executive acts on the world, and members live in the world that it shapes.
 That experience shapes the stated preferences that set the executive's next
 objective. Because the loop is closed, an executive can come to serve
-preferences that it helped create. AI researchers study this failure in
+preferences that it helped create. AI researchers study this case in
 recommender systems under the name *preference tampering*. John Kenneth
 Galbraith described an earlier version, the *dependence effect*, in which
 producers create the wants that they then satisfy.
@@ -30,7 +42,15 @@ members' will.
 The rule that an evaluated entity can't control its own measurement mechanism
 is a partial answer. A full answer needs a way to keep the intent channel
 separate from the executive's influence, and the framework doesn't specify one
-yet.
+yet. A proposed extension, *objective integrity*, would bar any charter from
+conditioning the wills that set its own objective.
+
+In the operator reading of the Framework, the loop has a further cost. The
+Framework takes the objective as input. If a charter's constraints shape the
+wills that set its objective, the output rewrites the input, and the Framework
+stops being an operator. A charter could then reach its optimum by
+conditioning its members to want what it already does. Goodhart's law is the
+measurement side of the same loop.
 
 ## Corrigibility
 
@@ -157,3 +177,25 @@ tasks, and only some of them can be measured, rewards for the measured tasks
 pull effort away from the others. The model's answer is weaker incentives, or
 tasks grouped so that the measured and unmeasured ones don't compete for the
 same effort. Campbell's law states the same problem for social indicators.
+
+Goodhart's law is the measurement side of
+[endogenous preferences](#endogenous-preferences). Endogenous preferences
+corrupt the will, and Goodhart's law corrupts the measure of the will.
+
+## Operator specification
+
+*Definition:* The properties that the Framework has to be shown to have, for
+every objective in its class, before its claim to efficiency means anything.
+
+Decomposability shows that optimal charters compose into an optimal whole. On
+its own, it promises little. A charter that can afford almost nothing is still
+at its afforded optimum, and a composition of such charters is at the nested
+optimum whatever the outcome. The Framework needs further claims that hold for
+every objective in its class and could turn out false:
+
+- Performance on nearly decomposable problems. The no-free-lunch theorems rule
+  out an optimizer that does well on every problem, so the claim has to name a
+  class.
+- A comparison with other structures at equal cost.
+- A bound on how the cost of anticipating responses grows with depth.
+- Objective integrity, the precondition for the Framework to be an operator.

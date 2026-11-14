@@ -27,9 +27,18 @@ The author settled the following points:
   analytic proofs of the properties that the operator needs to work as
   designed. More proofs are planned.
 - **Endogenous preferences is the general term** for the fact that
-  circumstances shape the will. It's the top problem in the
-  [open problems backlog](open-problems.md#endogenous-preferences). Goodhart's
-  law is its measurement side.
+  circumstances shape the will. The author first listed it as the top open
+  problem, then closed it later in the session. See
+  [Endogenous preferences](#endogenous-preferences).
+- **The objective is a fixed specification.** A charter's actions can change
+  members' wills, but not the rule that reads those wills into an objective.
+  A self-defined optimum is still an optimum.
+- **Fidelity is an objective.** Serving members' current wills is one
+  objective among others, so it belongs to the Question, not the Framework.
+  Objective integrity becomes a design option instead of an operator property.
+- **Dissent is an ethical right, not a functional guarantee.** Members keep
+  the right to dissent even when they lack the material capacity to exercise
+  it.
 - **Strongly emergent influence is an outside condition.** A charter treats
   the influence of strongly emergent structures like a force of nature that it
   works against at the scale where it acts. The charter doesn't treat that
@@ -69,8 +78,10 @@ caveats remain open:
   anticipation has to include that loop, which adds to its costs.
 - **Classification is a form of power.** Someone has to decide whether a
   stated preference is a member's interest or an emergent current. A charter
-  could dismiss inconvenient demands as the mood of the times. This question
-  belongs to endogenous preferences.
+  could dismiss inconvenient demands as the mood of the times. Under the
+  resolution in [Endogenous preferences](#endogenous-preferences), the
+  objective specification states how stated preferences are read, so this
+  question falls to charter design.
 
 Weak emergence is the larger practical threat. It raises the cost of
 anticipating responses, which bears on vacuity, described in the following
@@ -99,7 +110,9 @@ whatever the outcome. The result can become empty in three ways:
   afforded optimum, someone has to know what it could have afforded, which
   takes the same costly computation.
 - **Endogenous preferences move the standard.** If the objective changes with
-  the constraints, a charter can be optimal by definition.
+  the constraints, a charter can be optimal by definition. The author later
+  rejected this concern. See
+  [Endogenous preferences](#endogenous-preferences).
 
 ### The author's reply
 
@@ -141,47 +154,106 @@ in its class:
 - **A bound on affordability.** The cost of anticipating responses grows
   slowly with depth, because each level needs only its constituents'
   aggregate responses.
-- **Objective integrity.** No charter conditions the wills that set its own
-  objective. This property is the precondition for the Framework to be an
-  operator at all. See the following section.
+
+An earlier draft listed objective integrity as a fourth property. The author
+moved it to charter design. See
+[Endogenous preferences](#endogenous-preferences).
 
 ## Endogenous preferences
 
 The framework treats members' wills as the given input that sets each
-charter's objective. The glossary entry for capability already counts a will
-that someone else shapes as reduced freedom. It treats shaping as the
-exception, however, and assumes an unshaped will as the baseline.
-Circumstances shape every will.
-
-In the operator reading, the problem goes to the root. Members' wills set each
-charter's objective, and each charter's constraints shape those wills. The
-output rewrites the input, so the Framework stops being an operator, and the
-nested optimum becomes a fixed-point problem. It can fail in three ways:
+charter's objective. Circumstances shape every will, including the
+constraints of the charters that serve it. The session first read this loop as
+a threat to the operator. If a charter's output rewrites the wills that set
+its objective, the nested optimum looks like a fixed-point problem that can
+fail in three ways:
 
 - **No optimum.** No self-consistent state might exist.
 - **Several optima.** Several self-consistent states might exist, and the
   Framework can't rank them, because each comes with its own objective.
 - **A self-validating optimum.** The cheapest way for a charter to reach its
   optimum is to condition its members into wanting what it already does.
-  Decomposability would certify that outcome as optimal.
 
-The session considered three responses. The author hasn't chosen among them:
+### The author's resolution
 
-- **A laundered-preference standard.** Count only the preferences that a
-  member would hold after reflection or without manipulation. This standard
-  conflicts with the framework's rule against an outside index, and it gives
-  someone the power to rule on whose will is authentic.
-- **Objective integrity.** Extend the rule that an evaluated entity can't
-  control its own measurement mechanism. Members' wills are the final
-  measurement mechanism of every charter, so no charter may condition the
-  wills that set its own objective. This rule imposes no definition of
-  justice.
-- **Compatibilist agency.** Define agency as a will that can revise itself in
-  response to reasons and reflection, instead of as an unconditioned will
-  (Frankfurt, 1971; Fischer and Ravizza, 1998). On this view every will is
-  conditioned, and what matters is whether conditioning has removed the
-  capacity to revise. This response would belong in the Philosophy part,
-  which roots authority in human agency, so it's the author's decision.
+The author rejected that reading. The objective that the Framework takes as
+input is a specification, such as "serve what members want at each moment,
+aggregated by a stated rule." A charter's actions can change members' wills,
+but they can't change the specification. A charter that shapes wills still
+maximizes a fixed function of its own decision, which is an ordinary
+optimization problem:
+
+- Several self-consistent states pose no ranking problem, because the
+  specification ranks them.
+- A charter that conditions its members reaches a real optimum when its
+  specification allows conditioning. Whether to allow it is a choice for the
+  Question. A school or a religious order forms its members' wills on purpose.
+- The nested optimum is a Stackelberg optimum, so a parent that reshapes its
+  constituents' objectives only has a richer response to anticipate.
+
+By the author's test, the operator fails only if a charter structurally can't
+reach optimality against an objective that has been set. A self-defined
+optimum is still an optimum.
+
+### Fidelity as an objective
+
+The fidelity audit asks whether members got what they asked for. That
+question measures one objective, the satisfaction of members' current wills,
+and it builds that objective into the Framework. The author ruled that
+fidelity is an objective in its own right, so it belongs to the Question. An
+audit compares results with whatever objective a charter states.
+
+Objective integrity, the proposed rule that no charter conditions the wills
+that set its own objective, becomes a design option for charters whose
+objective calls for it. It's no longer an operator property.
+
+The glossary entries for fidelity audit and capability still define both terms
+by what members asked for. They need revising to match.
+
+### Objections and replies
+
+The session tested the resolution against three objections. The author
+answered each from existing definitions:
+
+- **Shaping from outside.** Influence from outside a charter falls under the
+  jurisdiction of a higher charter that covers both parties. The local charter
+  treats it as a given condition, like a force of nature: a municipality isn't
+  at fault when a dam upstream breaks. Influence between siblings falls under
+  their parent, which either enforces a rule against it or anticipates it as
+  part of their response. Influence with no common ancestor is outside the
+  domain of arbitration, which the decomposability guarantee already treats as
+  a given condition.
+- **The cost of anticipation.** Anticipating how constraints reshape wills
+  might cost about as much as simulating the society. The afforded optimum
+  already counts the cost of information, processing, and communication.
+  Spending heavy resources for a small gain is suboptimal once those resources
+  enter the calculation. The costs are often hard to see, but they can be
+  bounded stochastically or approximated. The literature calls this
+  *rational metareasoning* (Russell and Wefald, 1991).
+- **The capacity to dissent.** The Philosophy part holds that no delegation
+  can permanently extinguish the capacity for dissent. Conditioning that
+  removes members' material capacity to dissent doesn't contradict it. The
+  right to dissent is an ethical right that agency carries, not a functional
+  guarantee, and the Philosophy part already leaves material outcomes to
+  material reality.
+
+### Earlier responses
+
+Before the resolution, the session considered three responses. The author set
+them aside as follows:
+
+- **A laundered-preference standard** would count only the preferences that a
+  member would hold after reflection or without manipulation. It falls away,
+  because it conflicts with the framework's rule against an outside index and
+  gives someone the power to rule on whose will is authentic.
+- **Objective integrity** becomes a design option, as described in
+  [Fidelity as an objective](#fidelity-as-an-objective).
+- **Compatibilist agency** defines agency as a will that can revise itself in
+  response to reasons, instead of as an unconditioned will (Frankfurt, 1971;
+  Fischer and Ravizza, 1998). The operator no longer needs it. It stays
+  available as an account of agency for the Philosophy part.
+
+### Related terms
 
 Related terms from other fields include the following:
 
@@ -198,8 +270,8 @@ Related terms from other fields include the following:
 
 The session left these questions open:
 
-- Endogenous preferences, the top problem in the backlog
 - The account of agency in the Philosophy part
+- The revision of the glossary entries for fidelity audit and capability
 - The operator properties to prove next, listed in
   [What the operator owes](#what-the-operator-owes)
 
@@ -228,3 +300,5 @@ against their primary sources:
 - Conant and Ashby, "Every Good Regulator of a System Must Be a Model of That
   System," *International Journal of Systems Science*, 1970
 - Giddens, *The Constitution of Society*, 1984
+- Russell and Wefald, *Do the Right Thing: Studies in Limited Rationality*,
+  1991
